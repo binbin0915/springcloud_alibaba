@@ -13,7 +13,22 @@
         <module>shop-product</module>
         <module>shop-order</module>
     </modules>
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>haso nexus</name>
+            <url>http://ip.haso-soft.com:8180/repository/maven-public/</url>
+        </repository>
 
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>haso</name>
+            <url>http://ip.haso-soft.com:8180/repository/maven-public/</url>
+        </pluginRepository>
+    </pluginRepositories>
     <!--父工程-->
     <parent>
         <groupId>org.springframework.boot</groupId>
